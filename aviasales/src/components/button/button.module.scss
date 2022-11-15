@@ -1,0 +1,33 @@
+.btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  background: #2196F3;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  color: #2196F3;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #2196F3;
+}
+
+.btnBig {
+  width: 100%;
+  min-height: 50px;
+}

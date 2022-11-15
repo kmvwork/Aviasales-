@@ -1,0 +1,38 @@
+.li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding: 0 5px;
+}
+
+.li:not(:last-child) {
+  border-right: 1px solid #DFE5EC;
+}
+
+.li:first-child{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+
+  color: #4A4A4A;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.span:hover {
+  color: #FFFFFF;
+  background: #2196F3;
+}

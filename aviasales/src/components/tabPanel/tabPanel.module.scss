@@ -1,0 +1,23 @@
+.container {
+  //max-width: 500px;
+}
+
+.ul {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #FFFFFF;
+
+  border: 1px solid #DFE5EC;
+
+  border-radius: 5px;
+  overflow: hidden;
+
+  text-transform: uppercase;
+  user-select: none;
+
+  @media (max-width: 650px) {
+    margin-bottom: 15px;
+  }
+}

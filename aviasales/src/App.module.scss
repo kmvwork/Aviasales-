@@ -1,0 +1,65 @@
+@import-normalize;
+
+.header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  @media (max-width: 789px) {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 650px) {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  @media (max-width: 320px) {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  @media (max-width: 650px) {
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  @media (max-width: 920px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.filter {
+  flex-basis: 30%;
+  margin-right: 20px;
+
+  @media (max-width: 650px) {
+    width: 100%;
+  }
+}
+
+.tabPanel {
+  flex-basis: 70%;
+
+  @media (max-width: 650px) {
+    width: 100%;
+  }
+}
